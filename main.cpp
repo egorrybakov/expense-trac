@@ -1,7 +1,19 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 int main() {
-    cout << "Expense tracker works!" << endl;
+    string description;
+    double amount;
+
+    cout << "Enter description: ";
+    cin >> description;
+
+    cout << "Enter amount: ";
+    cin >> amount;
+
+    cout << "You entered: " << description << " $ " << amount << endl;
     return 0;
 }
+
+
