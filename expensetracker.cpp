@@ -9,11 +9,11 @@ int main() {
     cout << "Enter description: ";
     cin >> description;
 
-    cout << "Enter amount: ";
+    cout << "Enter amonunt: ";
     cin >> amount;
 
     cout << "You entered: " << description << " $ " << amount << endl;
-    return 0;
+    return 0; 
 }
 
 
